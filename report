@@ -1,0 +1,43 @@
+
+Title: Project 1 - Information Gathering Tool
+🔹 Objective:
+To develop a Python tool that takes a website URL and retrieves its IP address and geographical location.
+
+🔹 Tools and Libraries Used:
+Python 3
+
+Libraries: sys, socket, requests, json
+
+API: https://ipinfo.io
+
+🔹 Syntax:
+python infotool.py <websiteurl>
+
+🔹 Example:
+python infotool.py google.com
+
+🔹 Screenshots:
+Insert each screenshot with appropriate captions:
+
+Code snippet
+
+Command-line execution
+
+API result output in JSON
+
+🔹 Output Sample:
+
+{
+  "ip": "142.250.72.206",
+  "hostname": "dfw25s12-in-f14.1e100.net",
+  "city": "Mountain View",
+  "region": "California",
+  "country": "US",
+  "loc": "37.4056,-122.0775",
+  "org": "AS15169 Google LLC",
+  "postal": "94043",
+  "timezone": "America/Los_Angeles"
+}
+
+🔹 Conclusion:
+The tool successfully fetched the IP address and location details of the provided website using socket and API integration.
