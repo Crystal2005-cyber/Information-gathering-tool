@@ -10,10 +10,10 @@ Build a tool that will take any website name that the user provides and provide 
 
 When the user provides the below-mentioned syntax, the command tool should be able to give information such as location and IP address.
 
-Syntax :
+Syntax:
 python infotool.py <websiteurl>
 
-Example Command
+Example Command:
 Python infotool.py google.com
 
 Tasks:
